@@ -12,5 +12,8 @@ export default defineConfig({
       transformOn:true,
       mergeProps:true
     }),
-  ]
+  ],
+  server:{
+    port:3001,
+  }
 })
