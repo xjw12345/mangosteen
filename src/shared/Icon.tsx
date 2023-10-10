@@ -1,11 +1,13 @@
 import { defineComponent, PropType, ref } from 'vue';
 import s from './Icon.module.scss'
 
+export type IconName = 'add' | 'chart' | 'clock' | 'cloud' | 'Mangosteen' | 'pig' | 'menu'
+
 export const Icon = defineComponent({
   props:{
     name:{
-      type: String as PropType<'add' | 'chart' | 'clock' | 'cloud' | 'Mangosteen' | 'pig'>,
-      required: true,
+      type: String as PropType<IconName>,
+      required: true
     }
   },
    setup:(props,context)=>{
