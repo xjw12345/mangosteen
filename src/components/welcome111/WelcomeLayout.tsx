@@ -12,6 +12,6 @@ export const WelcomeLayout:FunctionalComponent = (props,context)=>{
       <div class={s.actions}>
         {bottons?.()}
       </div>
-     </div>
+     </div> 
      )
    }
