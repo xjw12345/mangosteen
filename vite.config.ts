@@ -26,7 +26,7 @@ export default defineConfig({
     port:3001,
     proxy: {
       '/api/v1': {
-        target: 'http://8.134.142.108:3000',
+        target: 'http://8.134.142.108:3000/',
       }
     }
   }
